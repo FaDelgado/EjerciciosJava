@@ -1,0 +1,30 @@
+package ClientesYCuentas;
+
+public class DepositoYExtraccion {
+	public Double deposito;
+	public Double extraccion;
+	public DepositoYExtraccion(Double deposito, Double extraccion) {
+		super();
+		this.deposito = deposito;
+		this.extraccion = extraccion;
+	}
+	
+	
+	
+	
+	public Double getDeposito() {
+		return deposito;
+	}
+	public void setDeposito(Double deposito) {
+		this.deposito = deposito;
+	}
+	public Double getExtraccion() {
+		return extraccion;
+	}
+	public void setExtraccion(Double extraccion) {
+		this.extraccion = extraccion;
+	}
+	
+	
+
+}

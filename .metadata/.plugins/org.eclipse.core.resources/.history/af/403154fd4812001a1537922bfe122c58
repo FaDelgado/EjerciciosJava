@@ -1,0 +1,32 @@
+
+public class Ejercicios2 {
+
+	public static void main(String[] args) {
+		
+		//Ejercicio 1
+		System.out.println("Ejercicio 1: " + esImparMayorADiez(62));
+		
+		//Ejercicio 2
+		System.out.println("Ejercicio 2: " + algunoMayor(6, 7, 8, 5));
+
+	}
+	
+	//Ejercicio 1
+	static Boolean esImparMayorADiez(int num1) {
+		if(num1 % 2 != 0 && num1 > 10) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	//Ejercicio 2
+	static Boolean algunoMayor(int numA, int numB, int numC, int numD) {
+		if((numA > numC && numA > numD) || (numB > numC && numB > numD)) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+
+}

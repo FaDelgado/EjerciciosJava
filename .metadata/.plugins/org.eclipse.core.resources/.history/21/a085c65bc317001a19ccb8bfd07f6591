@@ -1,0 +1,9 @@
+package JugadoresyEntrenamiento;
+
+public class SesionDeEntrenamiento {
+	
+	public Integer ExperienciaEntrenamiento;
+	
+	
+
+}

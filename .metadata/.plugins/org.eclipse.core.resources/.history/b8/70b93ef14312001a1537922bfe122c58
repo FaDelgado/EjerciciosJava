@@ -1,0 +1,12 @@
+
+public class Ejercicios {
+
+	public static void main(String[] args) {
+		System.out.println(holaMundo("Hola mundo"));
+
+	}
+	
+	static String holaMundo(String saludo){
+		return saludo;
+	}
+}

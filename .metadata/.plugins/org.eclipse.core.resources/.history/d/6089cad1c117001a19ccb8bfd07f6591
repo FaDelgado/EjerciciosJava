@@ -1,0 +1,15 @@
+package JugadoresyEntrenamiento;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Creamos un Jugador
+		
+		JugadorDeFutbol Messi = new JugadorDeFutbol("Messi", 100, 100, 0, 100);
+		
+		//Imprimo
+		Messi.hacerGol();
+
+	}
+
+}

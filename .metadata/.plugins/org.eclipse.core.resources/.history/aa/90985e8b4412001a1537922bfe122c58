@@ -1,0 +1,34 @@
+
+public class Ejercicios {
+
+	public static void main(String[] args) {
+		//Ejercicio 1
+		System.out.println(holaMundo("Hola mundo"));
+		//Ejercicio 2
+		System.out.println(unNumeroA(10) + unNumeroB(2.5));
+		System.out.println(unNumeroA(25) - unNumeroB(5.5));
+		
+	}
+	
+	
+	
+	
+	//Ejercicio 1
+	static String holaMundo(String saludo){
+		return saludo;
+	}
+	//Ejercicio 2
+	static Integer unNumeroA(int num1) {
+		return num1;
+	}
+	
+	static double unNumeroB(double num2) {
+		return num2;
+	}
+	
+	static String unaCadenaDeTexto(String texto) {
+		return texto;
+	}
+	
+	
+}
