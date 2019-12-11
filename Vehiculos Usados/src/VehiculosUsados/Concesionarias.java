@@ -3,10 +3,7 @@ package VehiculosUsados;
 public class Concesionarias {
 	
 	public String concesionaria;
-	Ventas venta;
-	Autos auto;
-	Clientes cliente;
-	Double monto;
+	
 
 	public Concesionarias(String concesionaria) {
 		super();
@@ -17,9 +14,9 @@ public class Concesionarias {
 	
 	//Metodo registrarVenta()
 	public void registrarVenta(Autos auto, Clientes cliente, double monto) {
-		venta.setAutoVendido(auto);
-		venta.setCliente(cliente);
-		venta.setMontoDeLaVenta(monto);
+		Ventas vendido = new Ventas(auto, cliente, monto);
+		System.out.println("El auto vendido es: " + auto.getMarca() + " " + auto.getModelo() + ". Compra realizado por: " + cliente.getApellido() + ". Precio final de: " + monto);		
+		
 	}
 	
 	

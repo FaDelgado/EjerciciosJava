@@ -7,7 +7,7 @@ public class Ventas {
 	Clientes Cliente;
 	
 	//Constructor
-	public Ventas(Double montoDeLaVenta, Autos autoVendido, Clientes cliente) {
+	public Ventas(Autos autoVendido, Clientes cliente, Double montoDeLaVenta) {
 		super();
 		this.montoDeLaVenta = montoDeLaVenta;
 		AutoVendido = autoVendido;
